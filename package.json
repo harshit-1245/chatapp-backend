@@ -1,0 +1,32 @@
+{
+  "name": "chatapp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-1245/chatapp-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-1245/chatapp-backend/issues"
+  },
+  "homepage": "https://github.com/harshit-1245/chatapp-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "socket.io": "^4.7.3"
+  }
+}
