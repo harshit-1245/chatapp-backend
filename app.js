@@ -33,7 +33,7 @@ connectDB();
 // Initializing Socket.IO server and setting CORS options
 const io = new Server(server, {
   cors: {
-    origin: 'https://deft-llama-8b8f15.netlify.app/', // Allowing connections from this origin
+    origin: 'https://celebrated-macaron-a4f26a.netlify.app', // Allowing connections from this origin
     methods: ['GET', 'POST'], // Allowing specific HTTP methods
   },
 });
