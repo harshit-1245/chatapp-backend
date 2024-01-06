@@ -45,7 +45,7 @@ io.on('connection', (socket) => {
   // Handling joining a room
   socket.on("join_room", (data) => {
     socket.join(data); // Joining the specified room
-    console.log(`User with Id:${socket.id} joined a room: ${data}`)
+    
   });
 
   // Handling sending messages within a room
