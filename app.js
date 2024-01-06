@@ -33,7 +33,7 @@ connectDB();
 // Initializing Socket.IO server and setting CORS options
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:3000', // Allowing connections from this origin
+    origin: '', // Allowing connections from this origin
     methods: ['GET', 'POST'], // Allowing specific HTTP methods
   },
 });
